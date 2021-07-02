@@ -1,0 +1,53 @@
+<html>
+
+<head>
+  <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
+  <title>Realtime Object Identification</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body background="download.jpg" id="Background">
+<center>
+
+
+<h3 class="btn btn-info heading">Realtime Object Identification(This is for kids)
+<hr>
+<center>
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 heading_div">
+MobileNet Model
+<br>
+<div class="btn btn-warning heading_div2">
+'Show an object to identify the image'
+</div>
+</div>
+</center>
+</h3>
+
+<br><br>
+
+<h4 class="btn btn-warning result_object">Object:
+<span id="result_object"></span>
+</h4>
+<br><br>
+<h4 class="btn btn-warning result_accuracy">Accuracy:
+  <span id="result_accuracy"></span>
+  </h4>
+</center>
+<div class="copyright_footer">
+Developed by:Rayyan Mussa Shaikh
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
+
+
